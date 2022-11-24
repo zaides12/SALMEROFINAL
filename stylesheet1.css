@@ -1,0 +1,534 @@
+#lotustitle {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  border: 2px solid white;
+  padding: 10px;
+
+
+}
+
+#lotus{
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+/* ALL IMAGES OF LOTUS */
+.IMG
+{
+    float: center;
+    width:  50%;
+    height: 50%;
+    padding: 50px;
+
+}
+
+#elem {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#songs
+{
+  text-align: center;
+}
+
+.td {font-size: 100%;
+  text-align: center;
+}
+
+
+#elem, .th, .td{
+  border: solid white;
+
+}
+
+.TB {
+    float: center;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.th, .td, .elemth
+{
+  text-align: center;
+  padding: 10px;
+}
+.tr
+{
+  font-size: 20px;
+}
+#bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* INDEX */
+
+#navindex {
+
+        display: flex;
+        flex-wrap: wrap;
+
+      }
+
+.navindex,nav a.active {
+        text-decoration: none;
+        display: block;
+        padding: 17px;
+        text-align: center;
+        color: #464141;
+       
+        font-family: sans-serif;
+        width:14%;
+      }
+
+.navindex:hover 
+    {
+        background-color: #ff429a;
+        color: #000000;
+      }
+
+nav a.active 
+{
+background-color:#ff429a;
+color: white;
+}
+
+/* ELEM */
+
+#navelem
+      
+{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+
+.nav1,nav a.navactive{
+        text-decoration: none;
+        display: block;
+        padding: 17px;
+        text-align: center;
+        color: #464141;
+        margin: 0;
+        font-family: sans-serif;
+        width:14%;
+      }
+
+.nav1:hover 
+    {
+        background-color: #1338BE;
+        color: #000000;
+      }
+
+  nav a.navactive
+  {
+    background-color:#1338BE;
+    color: white;
+  }
+
+/* JHS */
+
+#navjhs {
+
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+
+.nav2,nav a.nav2active{
+        text-decoration: none;
+        display: block;
+        padding: 17px;
+        text-align: center;
+        color: #464141;
+        margin: 0;
+        font-family: sans-serif;
+        width:14%;
+      }
+
+.nav2:hover 
+    {
+        background-color: #E3242B;
+        color: #000000;
+      }
+nav a.nav2active
+{
+  background-color: #E3242B;
+  color: white;
+}
+
+
+#title {
+font-family: 'Copperplate';"
+}
+
+sup {
+  color: #FFD700;
+}
+
+.bold {
+  color: #0000FF;font-size: 150%;
+}
+
+#p1 {
+  font-family: 'Courier New', monospace;
+  font-size: 170%; 
+  color: #000000;}
+
+.borderblue {
+  color: #0000FF;
+}
+
+.borderyellow { 
+  color: #FFD700;
+}
+
+.borderred
+{
+  color:  #FF0000;
+}
+
+.sampol {
+  font-family: 'Courier New', monospace;
+  font-size: 200%;
+  text-align: center;
+  padding: 10px;
+}
+
+.sampoljhs {
+  font-family: 'Courier New', monospace;
+  font-size: 200%;
+  text-align: center;
+  border: 2px solid red; 
+  padding: 10px;
+}
+
+.TITLE 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-color:#1338BE;
+  width: 100%;
+  padding: 30px;
+}
+
+#TITLE 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:#E3242B;
+  width: 100%;
+  padding: 30px;
+
+}
+
+#pelem{
+  font-family: 'Copperplate',monospace; 
+  font-size: 150%;
+  border: 5px solid deepskyblue;
+  padding: 20px;
+}
+
+#pelemred
+{
+  font-family: 'Copperplate',monospace; 
+  font-size: 150%;
+  border: 5px solid red;
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-family: 'Copperplate';
+}
+
+#end {
+  color: #FFD700;
+}
+
+.end { 
+  color:#0000FF ; 
+  font-size: 150%;
+
+}
+
+h5 {
+  font-family: 'Courier New', monospace;
+  border: 2px solid dodgerblue;
+  padding: 10px;
+}
+
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mypic {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 20%;
+}
+
+#mypicabout
+{
+  float: left;
+  width: 20%;
+  height: 20%;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.links {
+    float: center;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#schools {
+  border-spacing: 50px;
+  width: 100%;
+}
+
+.univ {font-size: 120%;
+  text-align: center;
+
+}
+
+#p2 { 
+    font-size: 150%;
+    color: black;
+    border: 3px solid #AA336A;
+    padding: 20px;
+    float: right;
+}
+
+#p22
+{
+  padding-right: 150px;
+}
+
+.contactabout
+{
+    text-align: center;
+}
+
+.PICS
+{
+    float: center;
+    width:  25%;
+    height: 25%;
+    object-fit: cover;
+}
+
+#p23
+{
+    color: #000000;
+}
+.CENTER 
+{
+    border: 3px solid;
+    padding: 10px;
+}
+
+#YT
+{
+  float: left;
+  padding: 10px;
+}
+
+#YT1
+{
+  float: right;
+  padding: 10px;
+}
+
+#YT2
+{
+  text-align: center;
+  padding: 10px;
+}
+
+.YTL
+{
+  width:683px;
+  height:384px;
+}
+
+#mmain
+{
+text-align: center;
+padding:  50px;
+}
+
+#mp3
+{
+  width: 88%;
+  text-align:  center;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext 
+{
+  visibility: visible;
+}
+
+.tooltip:hover .tooltiptext 
+{
+  visibility: visible;
+}
+
+#fb
+{
+width: 80px;
+height: 80px;
+}
+
+
+
+#insta
+{
+width: 80px;
+height: 80px;
+
+}
+
+#dc 
+{
+width: 100px;
+height: 100px;
+}
+
+#phone
+{
+  width: 80px;
+height: 80px;
+float: center;
+
+}
+
+#tele
+{
+  width: 80px;
+height: 80px;
+float: center;
+
+}
+
+#gmail1
+{
+  width: 80px;
+  height: 60px;
+}
+
+#gmail2
+{
+   width: 80px;
+height: 60px;
+}
+
+#gmail3
+{
+  width: 80px;
+  height: 60px;
+
+}
+
+#expe
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:#ff429a;
+  width: 100%;
+  padding: 30px;
+}
+.AC
+{
+text-align: center;
+  font-size: 50px;
+  font-family: gill sans, sans-serif;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.highest
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: gill sans, sans-serif;
+  color: white;
+  padding-top: 30px;
+
+}
+
+.higher
+{
+  text-align: center;
+  font-size: 30px;
+  font-family: gill sans, sans-serif;
+  color: white;
+}
+.low
+{
+  text-align: center;
+  font-size: 30px;
+  font-family: gill sans, sans-serif;
+  color: white;
+  padding-bottom: 30px;
+}
+
+#carouselExampleDark, .carouselcarousel-darkslide
+{
+  width: 640px;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-indicators{
+   flex-direction: column-reverse;
+ }
+
+ .carousel-item 
+ {
+  width: 100%;
+  height: 320px;
+ }
+ #contacts
+ {
+  width: 100%;
+ }
+
+
